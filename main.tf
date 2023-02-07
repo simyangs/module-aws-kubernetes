@@ -20,7 +20,6 @@ resource "aws_iam_role" "ms-cluster" {
 				"Action": "sts:AssumeRole"
 			}
 		]
-
 	}
 	POLICY
 }
